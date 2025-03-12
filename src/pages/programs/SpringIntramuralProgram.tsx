@@ -38,7 +38,7 @@ export default function SpringIntramuralProgram() {
             className="bg-white rounded-lg shadow-lg overflow-hidden"
           >
             <img
-              src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67d1ce7b3d1088d632e16dde.png"
+              src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67d1e800e868184328cb7e2b.png"
               alt="UST FC Spring Intramural Program"
               className="w-full h-auto"
             />
