@@ -61,7 +61,7 @@ export default function SpringIntramuralProgram() {
                   </div>
                   <div className="flex items-center">
                     <MapPin className="h-5 w-5 text-[#8ED204] mr-3" />
-                    <span>Christ Burr Wrinkle Park,Commack, NY 11725</span>
+                    <span>Burr Wrinkle Park,Harvest Lane,Commack, NY 11725</span>
                   </div>
                 </div>
 
