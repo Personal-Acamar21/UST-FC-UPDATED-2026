@@ -18,8 +18,8 @@ const trainingPrograms = [
       }
     ],
     location: {
-      name: "Christ Lutheran Church",
-      address: "189 Burr Rd, East Northport, NY",
+      name: "Burr Wrinkle Park",
+      address: "Harvest Lane, Commack, NY 11725",
       mapUrl: "https://maps.app.goo.gl/W6WF2DSPKvpFZgZY8"
     },
     path: "/programs/spring-intramural-program"
