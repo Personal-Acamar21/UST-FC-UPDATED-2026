@@ -38,7 +38,7 @@ export default function SpringIntramuralProgram() {
             className="bg-white rounded-lg shadow-lg overflow-hidden"
           >
             <img
-              src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67bfa5a6981fdc5e14a6ec7a.png"
+              src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67d1ce7b3d1088d632e16dde.png"
               alt="UST FC Spring Intramural Program"
               className="w-full h-auto"
             />
@@ -61,7 +61,7 @@ export default function SpringIntramuralProgram() {
                   </div>
                   <div className="flex items-center">
                     <MapPin className="h-5 w-5 text-[#8ED204] mr-3" />
-                    <span>Christ Lutheran Church, 189 Burr Rd, East Northport, NY</span>
+                    <span>Christ Burr Wrinkle Park,Commack, NY 11725</span>
                   </div>
                 </div>
 
