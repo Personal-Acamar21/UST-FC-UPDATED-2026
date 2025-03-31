@@ -1,7 +1,7 @@
 import React from 'react';
 import CampDetails from './CampDetails';
 
-export default function SpringBreakCamp2024() {
+export default function SpringBreakCamp2025() {
   return (
     <CampDetails
       title="Spring Break Camp 2025"
