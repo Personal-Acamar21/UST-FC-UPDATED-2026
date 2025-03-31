@@ -61,7 +61,7 @@ export default function CampDetails({
             <div className="p-8">
               <h1 className="text-3xl font-bold mb-6">{title}</h1>
 
-              <div className="grid md:grid-cols-2 gap-6">
+              <div className="grid md:grid-cols-2 gap-6 mb-8">
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Calendar className="h-5 w-5 text-[#8ED204] mr-3" />
@@ -86,7 +86,7 @@ export default function CampDetails({
                   )}
                   <div className="flex items-center">
                     <DollarSign className="h-5 w-5 text-[#8ED204] mr-3" />
-                    <span>{cost}</span>
+                    <span>${cost}</span>
                   </div>
                 </div>
               </div>
@@ -111,14 +111,12 @@ export default function CampDetails({
               </div>
 
               <div className="mt-8">
-                <a
+                <Button
                   href={registrationUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block w-full bg-[#8ED204] text-black px-6 py-3 rounded-lg text-center font-semibold hover:bg-[#8ED204]/90 transition-colors"
+                  className="w-full bg-[#8ED204] text-black px-6 py-3 rounded-lg text-center hover:bg-[#8ED204]/90"
                 >
                   Register Now
-                </a>
+                </Button>
               </div>
             </div>
           </motion.div>
