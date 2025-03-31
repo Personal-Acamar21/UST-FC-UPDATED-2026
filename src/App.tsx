@@ -42,13 +42,13 @@ const CodeOfConduct = React.lazy(() => import('./pages/CodeOfConduct'));
 
 // Camp Pages
 const ResidentialCamp2025 = React.lazy(() => import('./pages/camps/ResidentialCamp2025'));
-const SpringBreakCamp2024 = React.lazy(() => import('./pages/camps/SpringBreakCamp2024'));
+const SpringBreakCamp2025 = React.lazy(() => import('./pages/camps/SpringBreakCamp2025'));
 const IntenseSummer2025 = React.lazy(() => import('./pages/camps/IntenseSummer2025'));
 
 // Program Pages
 const SpringIntramuralProgram = React.lazy(() => import('./pages/programs/SpringIntramuralProgram'));
 
-const App: React.FC = () => {
+export default function App() {
   return (
     <div className="min-h-screen bg-white flex flex-col">
       <Navbar />
@@ -90,7 +90,7 @@ const App: React.FC = () => {
             
             {/* Camp Routes */}
             <Route path="/camps/residential-camp-2025" element={<ResidentialCamp2025 />} />
-            <Route path="/camps/spring-break-2024" element={<SpringBreakCamp2024 />} />
+            <Route path="/camps/spring-break-2025" element={<SpringBreakCamp2025 />} />
             <Route path="/camps/intense-summer-2025" element={<IntenseSummer2025 />} />
             
             {/* Program Routes */}
@@ -102,6 +102,6 @@ const App: React.FC = () => {
       <Footer />
     </div>
   );
-};
+}
 
-export default App;
+
