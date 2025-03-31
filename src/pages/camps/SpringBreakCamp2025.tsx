@@ -4,9 +4,9 @@ import CampDetails from './CampDetails';
 export default function SpringBreakCamp2024() {
   return (
     <CampDetails
-      title="Spring Break Camp 2024"
+      title="Spring Break Camp 2025"
       flyerImage="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/676423509b7d9a1792f3569a.jpeg"
-      dates="Spring Break 2024"
+      dates="Spring Break 2025"
       time="Full Day"
       location="Christ Lutheran Church, 189 Burr Road, East Northport NY"
       cost="195"
