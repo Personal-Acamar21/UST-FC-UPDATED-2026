@@ -40,11 +40,6 @@ const Privacy = React.lazy(() => import('./pages/Privacy'));
 const Disclaimer = React.lazy(() => import('./pages/Disclaimer'));
 const CodeOfConduct = React.lazy(() => import('./pages/CodeOfConduct'));
 
-// Camp Pages
-const ResidentialCamp2025 = React.lazy(() => import('./pages/camps/ResidentialCamp2025'));
-const SpringBreakCamp2025 = React.lazy(() => import('./pages/camps/SpringBreakCamp2025'));
-const IntenseSummer2025 = React.lazy(() => import('./pages/camps/IntenseSummer2025'));
-
 // Program Pages
 const SpringIntramuralProgram = React.lazy(() => import('./pages/programs/SpringIntramuralProgram'));
 
@@ -88,11 +83,6 @@ export default function App() {
             <Route path="/disclaimer" element={<Disclaimer />} />
             <Route path="/code-of-conduct" element={<CodeOfConduct />} />
             
-            {/* Camp Routes */}
-            <Route path="/camps/residential-camp-2025" element={<ResidentialCamp2025 />} />
-            <Route path="/camps/spring-break-2025" element={<SpringBreakCamp2025 />} />
-            <Route path="/camps/intense-summer-2025" element={<IntenseSummer2025 />} />
-            
             {/* Program Routes */}
             <Route path="/programs/spring-intramural-program" element={<SpringIntramuralProgram />} />
           </Routes>
@@ -103,3 +93,31 @@ export default function App() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
