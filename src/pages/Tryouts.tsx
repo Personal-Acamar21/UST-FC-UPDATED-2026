@@ -11,11 +11,13 @@ export default function Tryouts() {
       
       <div className="grid md:grid-cols-2 gap-8 mb-12">
         <div className="relative aspect-[3/4] w-full">
-          <img
-            src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67eaaf232c105a1a9b5461e7.jpeg"
-            alt="UST Soccer Academy Tryouts"
-            className="w-full h-full object-contain bg-gray-100 rounded-lg"
-          />
+          <a href={registrationUrl} target="_blank" rel="noopener noreferrer">
+            <img
+              src="https://storage.googleapis.com/msgsndr/AKZP7FbfcOPsLo93Ayuw/media/67eaaf232c105a1a9b5461e7.jpeg"
+              alt="UST Soccer Academy Tryouts"
+              className="w-full h-full object-contain bg-gray-100 rounded-lg hover:opacity-90 transition-opacity cursor-pointer"
+            />
+          </a>
         </div>
 
         <div className="space-y-6">
